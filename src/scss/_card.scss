@@ -1,0 +1,192 @@
+@each $color, $value in $theme-colors {
+  .card-header-#{$color} {
+    @include background-variant($value, $value);
+   
+   & .nav-link,.nav-link.active {
+    color: $white;
+   }
+  }
+}
+.card-icon {
+    padding: 10px 0 0;
+    i {
+        font-size: 55px;
+        border: 1px solid #E5E5E5;
+        border-radius: 50%;
+        width: 130px;
+        line-height: 130px;
+        height: 130px;
+        color: #3C4858;
+    }
+}
+@each $color, $value in $theme-colors {
+  .icon-#{$color} i {
+    color: $value
+
+  }
+}
+.content {
+    margin-top: 70px;
+    padding: 30px 15px;
+    min-height: calc(100vh - 123px);
+}
+.card-body {
+    padding: .9375rem 20px;
+    position: relative;
+}
+.card-collapse{
+    box-shadow: none;
+    background-color: transparent;
+    border-radius: 0;
+
+    & .card-header a {
+        color: #3C4858;
+        font-size: .9375rem;
+        display: block;
+        text-decoration: none;
+    }
+    & .card-header a i {
+        float: right;
+        top: 4px;
+        position: relative;
+    }
+}
+.card-header-custom {
+    margin-bottom: 0;
+    background: $white;
+
+}
+.card-footer {
+    .stats {
+        i {
+            vertical-align: middle;
+        }
+    } 
+} 
+
+.card-header-gradient-purple{
+    background: linear-gradient(40deg,#ff6ec4,#7873f5)!important;
+}
+.card-header-gradient-peach{
+    background: linear-gradient(40deg,#ffd86f,#fc6262)!important;
+}
+.card-header-gradient-blue{
+    background: linear-gradient(40deg,#45cafc,#303f9f)!important;
+}
+
+//Rotating Card Style
+
+/* entire container, keeps perspective */
+
+/* flip the pane when hovered */
+.card-flip:not(.manual-flip):hover,
+.card-flip.hover.manual-flip{
+    -webkit-transform: rotateY( 180deg );
+    -moz-transform: rotateY( 180deg );
+    -o-transform: rotateY( 180deg );
+    transform: rotateY( 180deg );
+}
+
+
+
+/* flip speed goes here */
+.card {
+    -webkit-transition: -webkit-transform .5s;
+    -moz-transition: -moz-transform .5s;
+    -o-transition: -o-transform .5s;
+    transition: transform .5s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    backface-visibility: hidden;
+    top: 0;
+    left: 0;
+
+
+}
+
+/* front pane, placed above back */
+.front {
+    position: relative;
+    z-index: 2;
+}
+
+/* back, initially hidden pane */
+.back {
+    -webkit-transform: rotateY( 180deg );
+    -moz-transform: rotateY( 180deg );
+    -o-transform: rotateY( 180deg );
+    transform: rotateY( 180deg );
+    z-index: 3;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+
+/*        Style       */
+
+
+.card .cover{
+    height: 105px;
+    overflow: hidden;
+
+}
+.card .cover img{
+    width: 100%;
+}
+.card .user{
+    margin: -55px auto 0;
+    width: 120px;
+}
+.card .user img{
+    border-radius: 50%;
+    border: 4px solid #FFFFFF;
+    width: 100%;
+}
+/*Background-image*/
+.backgroud-cover{
+  background-image: url(https://images.unsplash.com/photo-1493787039806-2edcbe808750?auto=format&fit=crop&w=750&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D);
+  background-size: cover;
+  background-position-y: 30%;
+}
+
+.overlay:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.5);
+}
+/*       Fix bug for IE      */
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .front, .back{
+        -ms-backface-visibility: visible;
+        backface-visibility: visible;
+    }
+
+    .back {
+        visibility: hidden;
+        -ms-transition: all 0.2s cubic-bezier(.92,.01,.83,.67);
+    }
+    .front{
+        z-index: 4;
+    }
+    .card-flip:not(.manual-flip):hover .back,
+    .card-flip.manual-flip.hover .back{
+        z-index: 5;
+        visibility: visible;
+    }
+}
+

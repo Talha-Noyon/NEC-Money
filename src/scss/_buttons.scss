@@ -1,0 +1,251 @@
+
+.btn-fab .fa, .btn-fab .material-icons, .btn-just-icon .fa, .btn-just-icon .material-icons {
+    margin-top: 0;
+    position: absolute;
+    width: 100%;
+    transform: none;
+    left: 0;
+    top: 0;
+    height: 100%;
+    line-height: 41px;
+    font-size: 20px;
+}
+
+button > i , span > i{
+    
+    display: inline-block;
+    vertical-align: middle;
+}
+.btn-link:active, .btn-link:focus, .btn-link:hover {
+    text-decoration: none!important;
+}
+
+
+.btn-just-icon {
+    font-size: 24px;
+    height: 41px;
+    min-width: 41px;
+    width: 41px;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+    line-height: 41px;
+}
+.btn-twitter {
+    color: #fff;
+    background-color: #55acee;
+
+}
+
+.btn-twitter:focus, .btn-twitter:hover{
+    color: #fff;
+    background-color: #47a5ed;
+    border-color: #126db2;
+}
+
+.btn-twitter.btn-link{
+    background-color: transparent;
+    color: #55acee;
+    border: none;
+    box-shadow: none;
+}
+.btn-just-icon.btn-round {
+    border-radius: 50%;
+}
+.btn-just-icon {
+    font-size: 24px;
+    height: 41px;
+    min-width: 41px;
+    width: 41px;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+    line-height: 41px;
+}
+.btn-facebook {
+    color: #fff;
+    background-color: #3b5998;
+    border-color: #3b5998;
+
+}
+.btn-facebook.btn-link{
+    background-color: transparent;
+    color: #3b5998;
+    border:none;
+    box-shadow: none;
+}
+
+.btn-google {
+    color: #fff;
+    background-color: #dd4b39;
+    border-color: #dd4b39;
+}
+.btn-google.btn-link {
+    background-color: transparent;
+    color: #dd4b39;
+    border: none;
+    box-shadow: none;
+}
+
+.btn-linkedin {
+    color: #fff;
+    background-color: #0976b4;
+    border-color: #0976b4;
+}
+.btn-linkedin:focus, .btn-linkedin:hover {
+    color: #fff;
+    background-color: #086ca5;
+    border-color: #06507a;
+}
+.btn-linkedin.btn-link{
+	background-color: transparent;
+    color: #0976b4;
+    border: none;
+    box-shadow: none;
+}
+.btn-pinterest {
+    color: #fff;
+    background-color: #cc2127;
+    border-color: #cc2127;
+}
+.btn-pinterest.focus, .btn-pinterest:focus, .btn-pinterest:hover {
+    color: #fff;
+    background-color: #bf1f24;
+    border-color: #97181d;
+}
+.btn-pinterest.btn-link{
+    background-color: transparent;
+    color: #cc2127;
+    border: none;
+    box-shadow: none;
+}
+.btn-youtube {
+    color: #fff;
+    background-color: #e52d27;
+    border-color: #e52d27;
+}
+.btn-youtube.focus, .btn-youtube:focus, .btn-youtube:hover {
+    color: #fff;
+    background-color: #e73a35;
+    border-color: #b91b16;
+}
+.btn-youtube.btn-link{
+    background-color: transparent;
+    color: #e52d27;
+    border: none;
+    box-shadow: none;
+}
+.btn-tumblr {
+    color: #fff;
+    background-color: #35465c;
+    border-color: #35465c;
+}
+.btn-tumblr.focus, .btn-tumblr:focus, .btn-tumblr:hover {
+    color: #fff;
+    background-color: #2f3f52;
+    border-color: #1f2835;
+}
+
+.btn-tumblr.btn-link{
+    background-color: transparent;
+    color: #35465c;
+    border: none;
+    box-shadow: none;
+}
+.btn-github {
+    color: #fff;
+    background-color: #333;
+    border-color: #333;
+}
+.btn-github.focus, .btn-github:focus, .btn-github:hover {
+    color: #fff;
+    background-color: #2b2b2b;
+    border-color: #141414;
+}
+.btn-github.btn-link{
+    background-color: transparent;
+    color: #333;
+    border: none;
+    box-shadow: none;
+}
+.btn-behance {
+    color: #fff;
+    background-color: #1769ff;
+    border-color: #1769ff;
+}
+.btn-behance.focus, .btn-behance:focus, .btn-behance:hover {
+    color: #fff;
+    background-color: #2673ff;
+    border-color: #004dd9;
+}
+.btn-behance.btn-link{
+    background-color: transparent;
+    color: #1769ff;
+    border: none;
+    box-shadow: none;
+}
+.btn-dribbble {
+    color: #fff;
+    background-color: #ea4c89;
+    border-color: #ea4c89;
+}
+.btn-dribbble.focus, .btn-dribbble:focus, .btn-dribbble:hover {
+    color: #fff;
+    background-color: #e83e80;
+    border-color: #df1a66;
+}
+.btn-dribbble.btn-link{
+    background-color: transparent;
+    color: #ea4c89;
+    border: none;
+    box-shadow: none;
+}
+.btn-reddit {
+    color: #fff;
+    background-color: #ff4500;
+    border-color: #ff4500;
+}
+.btn-reddit.focus, .btn-reddit:focus, .btn-reddit:hover {
+    color: #fff;
+    background-color: #ff500f;
+    border-color: #c23400;
+}
+.btn-reddit.btn-link{
+    background-color: transparent;
+    color: #ff4500;
+    border: none;
+    box-shadow: none;
+}
+//
+// Alternate buttons
+//
+
+@each $color, $value in $theme-colors {
+  .btn-#{$color} {
+    @include button-variant($value, $value);
+    @if($color == warning){
+        color:$white;
+        &:hover{
+            color:$white;
+        }
+        &:active{
+            color:$white!important;
+            
+        }
+    }
+    
+  }
+}
+
+@each $color, $value in $theme-colors {
+  .btn-outline-#{$color} {
+    @include button-outline-variant($value);
+
+  }
+}
+.btn-round{
+    border-radius: 30px;
+}
+.btn-xs i{
+    font-size: 0.875rem;
+}

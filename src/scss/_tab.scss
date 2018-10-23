@@ -1,0 +1,45 @@
+
+
+@each $color, $value in $theme-colors {
+	.nav-pills-#{$color} {
+		.nav-item {
+			.nav-link.active{
+				@include button-variant($value,$value);
+				&:hover{
+					@include button-variant($value,$value);
+				}
+				&.focus{
+					@include button-variant($value,$value);
+				}
+				&:focus{
+					@include button-variant($value,$value);
+				}
+				
+			}
+		}
+	   @if($color == warning){
+		   & .nav-link.active {
+		    color: $white!important;
+		   }
+	   } 
+	}
+	.nav-pills.nav-pills-outline-#{$color} {
+		.nav-item {
+			.nav-link.active{
+				@include button-outline-variant($value);
+				&:hover{
+					@include button-outline-variant($value);
+				}
+				&.focus{
+					@include button-outline-variant($value);
+				}
+				&:focus{
+					@include button-outline-variant($value);
+				}
+				
+			}
+		}
+		
+	}
+}
+

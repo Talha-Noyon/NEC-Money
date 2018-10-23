@@ -1,0 +1,55 @@
+
+.raised-1{
+	@include box_shadow(1)
+}
+
+.raised-2{
+	@include box_shadow(2)
+}.raised-3{
+	@include box_shadow(3)
+}.raised-4{
+	@include box_shadow(4)
+}.raised-5{
+	@include box_shadow(5)
+}.raised-6{
+	@include box_shadow(6)
+}
+.text-shadow{
+  text-shadow: 1px 2px 2px;
+}
+
+.border-primary
+{
+  box-shadow: 0 1px 1px #007BFF, 0 1px 1px #007BFF;
+}
+.border-secondary
+{
+  box-shadow: 0 1px 1px #6C757D, 0 1px 1px #6C757D;
+}
+.border-success
+{
+  box-shadow: 0 1px 1px #28A745, 0 1px 1px #28A745;
+}
+.border-danger
+{
+  box-shadow: 0 1px 1px #dc3545, 0 1px 1px #f24214;
+}
+.border-warning
+{
+  box-shadow: 0 1px 1px #FFC107, 0 1px 1px #FFC107;
+}
+.border-info
+{
+  box-shadow: 0 1px 1px #17A2B8, 0 1px 1px #17A2B8;
+}
+.border-light
+{
+  box-shadow: 0 1px 1px #F8F9FA, 0 1px 1px #F8F9FA;
+}
+.border-dark
+{
+  box-shadow: 0 1px 1px #343A40, 0 1px 1px #343A40;
+}
+
+
+
