@@ -1,30 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c31bafba-98b2-4d1f-bb1a-3bc6bcc1f6fc" name="Default Changelist" comment="about page updated">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/winskit-admin-default.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/winskit-admin-default.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/Mypiclatest.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/card-profile1-square.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/computer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/farazyDental.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/rotating_card_profile.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/rotating_card_profile2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/rotating_card_profile3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/rotating_card_thumb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/rotating_card_thumb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/rotating_card_thumb2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/rotating_card_thumb3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/sample-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/splash.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/bootstrap-material-design.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/_layout-style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_layout-style.scss" afterDir="false" />
-    </list>
+    <list default="true" id="c31bafba-98b2-4d1f-bb1a-3bc6bcc1f6fc" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -385,22 +362,31 @@
       <workItem from="1540683878034" duration="3180000" />
       <workItem from="1540696966466" duration="9695000" />
       <workItem from="1540722624679" duration="5219000" />
-      <workItem from="1540742168801" duration="12961000" />
+      <workItem from="1540742168801" duration="13314000" />
     </task>
+    <task id="LOCAL-00001" summary="about page updated">
+      <created>1540759911676</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1540759911676</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="179796000" />
+    <option name="totallyTimeSpent" value="180149000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="692" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4982079" visible="true" weight="0.30500758" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Gulp" order="2" side_tool="true" />
       <window_info id="npm" order="3" sideWeight="0.50179213" side_tool="true" weight="0.28983307" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.3297491" />
+      <window_info anchor="bottom" id="Messages" weight="0.3297491" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32976827" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32976827" />
