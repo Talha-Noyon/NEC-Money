@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c31bafba-98b2-4d1f-bb1a-3bc6bcc1f6fc" name="Default Changelist" comment="" />
+    <list default="true" id="c31bafba-98b2-4d1f-bb1a-3bc6bcc1f6fc" name="Default Changelist" comment="about page updated">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/winskit-admin-default.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/winskit-admin-default.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/Mypiclatest.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/card-profile1-square.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/computer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/farazyDental.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/rotating_card_profile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/rotating_card_profile2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/rotating_card_profile3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/rotating_card_thumb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/rotating_card_thumb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/rotating_card_thumb2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/rotating_card_thumb3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/sample-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/splash.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/bootstrap-material-design.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/_layout-style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_layout-style.scss" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,85 +98,78 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-827512790">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.20" value="2" />
+          <entry key="project.open.time.23" value="2" />
+          <entry key="project.open.time.26" value="1" />
+          <entry key="project.open.time.28" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="10" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="html" value="5" />
+          <entry key="js" value="5" />
+          <entry key="scss" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="5" />
+          <entry key="JavaScript" value="5" />
+          <entry key="SCSS" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="819" />
+          <entry key="js" value="76" />
+          <entry key="scss" value="39" />
+          <entry key="txt" value="20" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="819" />
+          <entry key="JavaScript" value="76" />
+          <entry key="PLAIN_TEXT" value="20" />
+          <entry key="SCSS" value="39" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/html/card.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17190">
-              <caret line="1674" column="14" selection-start-line="1637" selection-start-column="8" selection-end-line="1674" selection-end-column="14" />
-              <folding>
-                <element signature="n#div#0;n#div#3;n#section#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#3;n#section#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#4;n#section#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#section#2;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#section#3;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#section#5;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#section#7;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#section#8;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#section#9;n#section#0;n#body#0;n#html#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/html/NEC MONEY-home.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1725">
-              <caret line="115" column="26" selection-start-line="115" selection-start-column="26" selection-end-line="115" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2385">
-              <caret line="168" column="23" selection-start-line="168" selection-start-column="23" selection-end-line="168" selection-end-column="23" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/scss/_layout-style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="477">
-              <caret line="67" column="1" lean-forward="true" selection-start-line="67" selection-start-column="1" selection-end-line="67" selection-end-column="1" />
+            <state relative-caret-position="564">
+              <caret line="68" column="16" lean-forward="true" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/html/ChairmanMsg.html">
+        <entry file="file://$PROJECT_DIR$/src/html/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="5" selection-start-line="19" selection-end-line="96" selection-end-column="9" />
-              <folding>
-                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-              </folding>
+            <state relative-caret-position="-2315">
+              <caret line="647" column="33" lean-forward="true" selection-start-line="647" selection-start-column="33" selection-end-line="647" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/html/NEC MONEY-about.html">
+        <entry file="file://$PROJECT_DIR$/src/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="139" column="62" selection-start-line="139" selection-start-column="62" selection-end-line="139" selection-end-column="62" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bootstrap/scss/_card.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="8" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="105" />
+            <state relative-caret-position="90">
+              <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -162,11 +178,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>foo</find>
-      <find>navbar</find>
-      <find>rotateCard</find>
-      <find>.hover</find>
-      <find>img</find>
       <find>manual-flip</find>
       <find>static</find>
       <find>card-container</find>
@@ -192,7 +203,16 @@
       <find>&lt;h4 class=&quot;card-title&quot;&gt;</find>
       <find>&lt;h5 class=&quot;pb-2 text-primary&quot;&gt;</find>
       <find>footer</find>
+      <find>carousel-3d-container</find>
+      <find>ImagePath/ImageName.jpg</find>
+      <find>50px</find>
+      <find>-50%</find>
+      <find>content</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -212,15 +232,19 @@
         <option value="$USER_HOME$/Desktop/owl-slider.html" />
         <option value="$PROJECT_DIR$/src/js/owl.carousel.min.js" />
         <option value="$PROJECT_DIR$/src/css/owl.theme.default.css" />
-        <option value="$PROJECT_DIR$/src/js/main.js" />
         <option value="$PROJECT_DIR$/src/html/feema-home.html" />
         <option value="$PROJECT_DIR$/src/html/card.html" />
         <option value="$PROJECT_DIR$/src/scss/mixins/_shadow.scss" />
         <option value="$PROJECT_DIR$/src/html/ChairmanMsg.html" />
         <option value="$PROJECT_DIR$/src/html/NEC MONEY-home.html" />
         <option value="$PROJECT_DIR$/src/scss/_shadow.scss" />
-        <option value="$PROJECT_DIR$/src/scss/_layout-style.scss" />
         <option value="$PROJECT_DIR$/src/html/NEC MONEY-about.html" />
+        <option value="$PROJECT_DIR$/src/html/index.html" />
+        <option value="$PROJECT_DIR$/src/js/main.js" />
+        <option value="$USER_HOME$/Downloads/Compressed/bootstrap testimonial slider-20181027T235940Z-001/bootstrap testimonial slider/testimonial.html" />
+        <option value="$USER_HOME$/Downloads/Compressed/css3 slider/CSS3-Slider.html" />
+        <option value="$PROJECT_DIR$/src/scss/_layout-style.scss" />
+        <option value="$PROJECT_DIR$/src/html/about.html" />
       </list>
     </option>
   </component>
@@ -246,10 +270,10 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-136" />
-    <option name="y" value="126" />
-    <option name="width" value="1346" />
-    <option name="height" value="652" />
+    <option name="x" value="282" />
+    <option name="y" value="226" />
+    <option name="width" value="1221" />
+    <option name="height" value="597" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -261,58 +285,31 @@
         <subPane>
           <expand>
             <path>
-              <item name="feema2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="feema2" type="462c0819:PsiDirectoryNode" />
+              <item name="NEC-Money" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NEC-Money" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="feema2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="feema2" type="462c0819:PsiDirectoryNode" />
+              <item name="NEC-Money" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NEC-Money" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="feema2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="feema2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="feema2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="feema2" type="462c0819:PsiDirectoryNode" />
+              <item name="NEC-Money" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NEC-Money" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="html" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="feema2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="feema2" type="462c0819:PsiDirectoryNode" />
+              <item name="NEC-Money" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NEC-Money" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="feema2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="feema2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="Forms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="feema2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="feema2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="feema2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="feema2" type="462c0819:PsiDirectoryNode" />
+              <item name="NEC-Money" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NEC-Money" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="scss" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="feema2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="feema2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="scss" type="462c0819:PsiDirectoryNode" />
-              <item name="mixins" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -325,6 +322,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -378,21 +376,31 @@
       <workItem from="1540185761800" duration="3915000" />
       <workItem from="1540207930177" duration="2634000" />
       <workItem from="1540273653518" duration="5187000" />
+      <workItem from="1540382400975" duration="343000" />
+      <workItem from="1540397330673" duration="609000" />
+      <workItem from="1540489670816" duration="1580000" />
+      <workItem from="1540535341046" duration="2980000" />
+      <workItem from="1540544653091" duration="4272000" />
+      <workItem from="1540651280964" duration="9291000" />
+      <workItem from="1540683878034" duration="3180000" />
+      <workItem from="1540696966466" duration="9695000" />
+      <workItem from="1540722624679" duration="5219000" />
+      <workItem from="1540742168801" duration="12961000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129666000" />
+    <option name="totallyTimeSpent" value="179796000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="692" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2579666" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4982079" visible="true" weight="0.30500758" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Gulp" order="2" side_tool="true" />
-      <window_info id="npm" order="3" side_tool="true" />
+      <window_info id="npm" order="3" sideWeight="0.50179213" side_tool="true" weight="0.28983307" />
       <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.3297491" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32976827" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32976827" />
@@ -417,46 +425,17 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="about page updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="about page updated" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/html/index.html" />
-    <entry file="file://$PROJECT_DIR$/src/html/alert.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/panels.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/widgets.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="720" column="28" selection-start-line="720" selection-start-column="28" selection-end-line="720" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/components/badges.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/components/tables.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/Forms/regular.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/alert.html" />
+    <entry file="file://$PROJECT_DIR$/src/html/panels.html" />
+    <entry file="file://$PROJECT_DIR$/src/html/widgets.html" />
+    <entry file="file://$PROJECT_DIR$/src/html/components/badges.html" />
+    <entry file="file://$PROJECT_DIR$/src/html/components/tables.html" />
+    <entry file="file://$PROJECT_DIR$/src/html/Forms/regular.html" />
     <entry file="file://$USER_HOME$/Downloads/Compressed/x_rotating_card_v1.4/x_rotating_card_v1.4/css/rotating-card.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-697">
@@ -485,13 +464,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/button.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="423" column="39" lean-forward="true" selection-start-line="423" selection-start-column="39" selection-end-line="423" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/button.html" />
     <entry file="file://$PROJECT_DIR$/src/scss/_buttons.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
@@ -510,13 +483,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/navbar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="337" column="41" selection-start-line="332" selection-end-line="344" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/navbar.html" />
     <entry file="file://$PROJECT_DIR$/dist/src/bootstrap/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="169">
@@ -524,13 +491,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/components/notifications.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/components/notifications.html" />
     <entry file="file://$USER_HOME$/Downloads/Compressed/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -589,51 +550,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/card.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17190">
-          <caret line="1674" column="14" selection-start-line="1637" selection-start-column="8" selection-end-line="1674" selection-end-column="14" />
-          <folding>
-            <element signature="n#div#0;n#div#3;n#section#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#3;n#section#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#4;n#section#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#2;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#3;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#5;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#7;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#8;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#section#9;n#section#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/NEC MONEY-home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1725">
-          <caret line="115" column="26" selection-start-line="115" selection-start-column="26" selection-end-line="115" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2385">
-          <caret line="168" column="23" selection-start-line="168" selection-start-column="23" selection-end-line="168" selection-end-column="23" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/ChairmanMsg.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="5" selection-start-line="19" selection-end-line="96" selection-end-column="9" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/card.html" />
+    <entry file="file://$PROJECT_DIR$/src/html/NEC MONEY-home.html" />
+    <entry file="file://$PROJECT_DIR$/src/html/ChairmanMsg.html" />
+    <entry file="file://$PROJECT_DIR$/src/html/NEC MONEY-about.html" />
     <entry file="file://$PROJECT_DIR$/src/bootstrap/scss/_card.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -641,17 +561,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/_layout-style.scss">
+    <entry file="file://$PROJECT_DIR$/src/js/bootstrap-material-design.min.js" />
+    <entry file="file://$PROJECT_DIR$/src/js/buttons.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/datepicker.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="67" column="1" lean-forward="true" selection-start-line="67" selection-start-column="1" selection-end-line="67" selection-end-column="1" />
+        <state relative-caret-position="-1170" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/materialize.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="102" column="19" selection-start-line="102" selection-start-column="19" selection-end-line="102" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/NEC MONEY-about.html">
+    <entry file="file://$USER_HOME$/Downloads/Compressed/bootstrap testimonial slider-20181027T235940Z-001/bootstrap testimonial slider/testimonial.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="139" column="62" selection-start-line="139" selection-start-column="62" selection-end-line="139" selection-end-column="62" />
+        <state relative-caret-position="375">
+          <caret line="43" column="214" selection-start-line="43" selection-start-column="214" selection-end-line="43" selection-end-column="214" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Compressed/css3 slider/CSS3-Slider.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="61" column="8" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/_layout-style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="564">
+          <caret line="68" column="16" lean-forward="true" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2315">
+          <caret line="647" column="33" lean-forward="true" selection-start-line="647" selection-start-column="33" selection-end-line="647" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
         </state>
       </provider>
     </entry>

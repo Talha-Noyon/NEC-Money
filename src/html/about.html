@@ -3,7 +3,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="../../dist/src/bootstrap/bootstrap.css">
     <link rel="stylesheet" href="../../dist/css/winskit-admin-default.css">
@@ -12,9 +12,249 @@
     <!--<link rel="stylesheet" href="../../dist/css/animate.css">-->
     <link rel="stylesheet" href="../../dist/css/owl.carousel.min.css">
     <link rel="stylesheet" href="../../dist/css/owl.theme.css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 
     <title>NEC Money -about</title>
+    <style>
+
+        /* Slider */
+        #slider {
+            width: 100%;
+            height: 31.25rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .slides {
+            width: 100%;
+            height: 400%;
+            position: relative;
+            -webkit-animation: slide 30s infinite;
+            -moz-animation: slide 30s infinite;
+            animation: slide 30s infinite;
+        }
+
+        .slider {
+            width: 100%;
+            height: 25%;
+            position: relative;
+            z-index: 1;
+            overflow: hidden;
+        }
+
+        /*!* Legend *!
+        .legend{
+            border:500px solid transparent;
+            border-left:800px solid rgba(52, 73, 94, .7);
+            border-bottom:0;
+            position:absolute;
+            bottom:0;
+        }*/
+
+        /* Contents */
+        .slider-content {
+            text-shadow: 0px 1px 1px;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            overflow: hidden;
+            text-align: center;
+            padding-top: 2%;
+            background-color: rgba(0, 0, 0, 0.5);
+            -webkit-animation: content-s 7.5s infinite;
+            -moz-animation: content-s 7.5s infinite;
+            animation: content-s 7.5s infinite;
+        }
+
+        .slider-content h1 {
+            font-size: 2rem;
+        }
+
+        /* Animation */
+        @-webkit-keyframes slide {
+            0%, 100% {
+                margin-top: 0%;
+            }
+            21% {
+                margin-top: 0%;
+            }
+            25% {
+                margin-top: -500px;
+            }
+            46% {
+                margin-top: -500px;
+            }
+            50% {
+                margin-top: -1000px;
+            }
+            71% {
+                margin-top: -1000px;
+            }
+            75% {
+                margin-top: -1500px;
+            }
+            96% {
+                margin-top: -1500px;
+            }
+        }
+
+        @-moz-keyframes slide {
+            0%, 100% {
+                margin-top: 0%;
+            }
+            21% {
+                margin-top: 0%;
+            }
+            25% {
+                margin-top: -500px;
+            }
+            46% {
+                margin-top: -500px;
+            }
+            50% {
+                margin-top: -1000px;
+            }
+            71% {
+                margin-top: -1000px;
+            }
+            75% {
+                margin-top: -1500px;
+            }
+            96% {
+                margin-top: -1500px;
+            }
+        }
+
+        @keyframes slide {
+            0%, 100% {
+                margin-top: 0%;
+            }
+            21% {
+                margin-top: 0%;
+            }
+            25% {
+                margin-top: -500px;
+            }
+            46% {
+                margin-top: -500px;
+            }
+            50% {
+                margin-top: -1000px;
+            }
+            71% {
+                margin-top: -1000px;
+            }
+            75% {
+                margin-top: -1500px;
+            }
+            96% {
+                margin-top: -1500px;
+            }
+        }
+
+        @-webkit-keyframes content-s {
+            0% {
+                left: -100%;
+            }
+            10% {
+                left: 0px;
+            }
+            30% {
+                left: 0px;
+            }
+            40% {
+                left: 0px;
+            }
+            50% {
+                left: 0px;
+            }
+            60% {
+                left: 0px;
+            }
+            70% {
+                left: 0;
+            }
+            80% {
+                left: -60%;
+            }
+            90% {
+                left: -60%;
+            }
+            100% {
+                left: -60%;
+            }
+        }
+
+        @-moz-keyframes content-s {
+            0% {
+                left: -100%;
+            }
+            10% {
+                left: 0px;
+            }
+            30% {
+                left: 0px;
+            }
+            40% {
+                left: 0px;
+            }
+            50% {
+                left: 0px;
+            }
+            60% {
+                left: 0px;
+            }
+            70% {
+                left: 0;
+            }
+            80% {
+                left: -100%;
+            }
+            90% {
+                left: -100%;
+            }
+            100% {
+                left: -100%;
+            }
+        }
+
+        @keyframes content-s {
+            0% {
+                left: -100%;
+            }
+            10% {
+                left: 20px;
+            }
+            15% {
+                left: 0px;
+            }
+            30% {
+                left: 0px;
+            }
+            40% {
+                left: 0px;
+            }
+            50% {
+                left: 0px;
+            }
+            60% {
+                left: 0px;
+            }
+            70% {
+                left: 0;
+            }
+            80% {
+                left: -100%;
+            }
+            90% {
+                left: -100%;
+            }
+            100% {
+                left: -100%;
+            }
+        }
+
+    </style>
 </head>
 <body>
 <header>
@@ -95,20 +335,41 @@
         </div>
     </nav>
 </header>
+
 <main>
+    <!--Breadcumb-->
+    <section class="breadcrumb justify-content-center m-0">
+        <div class="col-md-11 navbar">
+            <h5 class="m-0">About</h5>
+
+            <ul class="d-flex justify-content-end list-unstyled m-0">
+                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">About</li>
+            </ul>
+        </div>
+    </section>
     <!--Mission-->
     <section class="section">
-        <section class="container">
-            <h3 class=" font-weight-light">We are NEC Money Transfer</h3>
-            <section class="row mission">
+        <section class="container-fluid">
+            <h3 class="container">We are NEC Money Transfer</h3>
+            <section class="d-flex justify-content-center row mission">
                 <div class="col-md-6 d-flex flex-column justify-content-center" data-aos="fade-in">
                     <img class="img-thumbnail" src="./../images/nec-money/mission.png.742x400_q85_crop.png" alt="">
                 </div>
-                <div class="col-md-6 d-flex flex-column justify-content-center" data-aos="fade-in">
+                <div class="col-md-5 d-flex flex-column justify-content-center" data-aos="fade-in">
                     <h3>Mission</h3>
-                    <p class="font-italic">Imagine having a dream. Imagine having it come true. NEC Money is not just about international money transfers. It's a way to make your dreams come true. Whether it is children's education, or building a dream home, a lavish wedding for a daughter, or medical treatment for an ailing parent, sending money home in time was never easier.</p>
-                    <p class="font-italic">With a network of 100,000 across the globe, an NEC Money location is never far away. When you choose us, you choose a money transfer service that is convenient, affordable, accessible and secure. Not only that, our competitive pricing ensures that when you transfer money internationally, you can send home the maximum possible money!</p>
-                    <p class="font-italic">Over the last 17 years, with 100 percent commitment and respectful handling of our customers' hard earned money, NEC Money has earned its customers' seal of approval for its dependability and trustworthiness. We are proud to say that we have thousands of happy customers across the world using our services every day.</p>
+                    <p class="font-italic">Imagine having a dream. Imagine having it come true. NEC Money is not just
+                        about international money transfers. It's a way to make your dreams come true. Whether it is
+                        children's education, or building a dream home, a lavish wedding for a daughter, or medical
+                        treatment for an ailing parent, sending money home in time was never easier.</p>
+                    <p class="font-italic">With a network of 100,000 across the globe, an NEC Money location is never
+                        far away. When you choose us, you choose a money transfer service that is convenient,
+                        affordable, accessible and secure. Not only that, our competitive pricing ensures that when you
+                        transfer money internationally, you can send home the maximum possible money!</p>
+                    <p class="font-italic">Over the last 17 years, with 100 percent commitment and respectful handling
+                        of our customers' hard earned money, NEC Money has earned its customers' seal of approval for
+                        its dependability and trustworthiness. We are proud to say that we have thousands of happy
+                        customers across the world using our services every day.</p>
 
                 </div>
 
@@ -120,8 +381,14 @@
             <section class="pt-4 bg-light row mission  d-flex justify-content-center">
                 <div class="col-md-6 " data-aos="fade-right">
                     <h3>Vision</h3>
-                    <p class="font-italic">NEC Money’s vision is to make international money transfers more and more convenient for the millions of expats around the world. Through global partnerships, innovative solutions, robust compliance and a deep understanding of customer needs and expectations, we are rapidly becoming the most preferred and trusted cross-border money transfer brand in the world.</p>
-                    <p class="font-italic">Expats truly define the habit, desire and drive for more. They live away from their loved ones to provide more for them. In order to become their preferred way of sending money, we offer them more.</p>
+                    <p class="font-italic">NEC Money’s vision is to make international money transfers more and more
+                        convenient for the millions of expats around the world. Through global partnerships, innovative
+                        solutions, robust compliance and a deep understanding of customer needs and expectations, we are
+                        rapidly becoming the most preferred and trusted cross-border money transfer brand in the
+                        world.</p>
+                    <p class="font-italic">Expats truly define the habit, desire and drive for more. They live away from
+                        their loved ones to provide more for them. In order to become their preferred way of sending
+                        money, we offer them more.</p>
 
                 </div>
 
@@ -130,16 +397,20 @@
                 </div>
             </section>
         </section>
+
         <!--Speedy-->
-        <section class="container-fluid speedy">
+        <section class="container-fluid p-4 bg-light">
 
             <section class="pt-4 row mission  d-flex justify-content-center">
-                <div class="col-md-5 d-flex flex-column justify-content-center pb-4" data-aos="bounce-in-up">
+                <div class="col-md-5 d-flex flex-column justify-content-center pb-4 aos-init aos-animate"
+                     data-aos="fade-up">
                     <img class="img-thumbnail" src="./../images/nec-money/Speedy-2.png" alt="">
                 </div>
-                <div class="col-md-6 " data-aos="bounce-in-up">
+                <div class="col-md-6 aos-init aos-animate" data-aos="fade-up">
                     <h3>Speedy</h3>
-                    <p class="font-italic">With NEC Money, cash can be transferred from one part of the world to another instantly. We also offer real time bank account transfers to selected payment network countries.</p>
+                    <p class="font-italic">With NEC Money, cash can be transferred from one part of the world to another
+                        instantly. We also offer real time bank account transfers to selected payment network
+                        countries.</p>
 
 
                 </div>
@@ -147,12 +418,323 @@
 
             </section>
         </section>
+        <!--No. One Security-->
+        <section class="container-fluid p-4 bg-light">
+
+            <section class="pt-4 row mission  d-flex justify-content-center">
+
+                <div class="d-flex flex-column justify-content-center col-md-6 aos-init aos-animate" data-aos="fade-up">
+                    <h3>No. One Security</h3>
+                    <p class="font-italic">With our robust compliance and unique 15 digit SPIN, you can be assured of a
+                        safe & secure money transfer experience.</p>
+                </div>
+                <div class="col-md-5 d-flex flex-column justify-content-center pb-4 aos-init aos-animate"
+                     data-aos="fade-up">
+                    <img class="img-thumbnail" src="./../images/nec-money/cyber_security.jpg" alt="">
+                </div>
+
+            </section>
+        </section>
+        <!--None Stop Support-->
+        <section class="container-fluid p-4 bg-light">
+
+            <section class="pt-4 row mission  d-flex justify-content-center">
+                <div class="col-md-5 d-flex flex-column justify-content-center pb-4 aos-init aos-animate"
+                     data-aos="fade-up">
+                    <img class="img-thumbnail h-75" src="./../images/nec-money/nonstop.jpg" alt="">
+                </div>
+                <div class="d-flex flex-column justify-content-center col-md-6 aos-init aos-animate" data-aos="fade-up">
+                    <h3>None Stop Support</h3>
+                    <p class="font-italic">24 X 7 customer support and online transaction tracker, to help you keep
+                        track of your money all day, every day anywhere around the world.</p>
+                </div>
+            </section>
+        </section>
+        <!--More Strong-->
+        <section class="container-fluid strong">
+
+            <section class="d-flex justify-content-center mission pt-4 row">
+                <div class="aos-init col-md-6 d-flex flex-column justify-content-center aos-animate"
+                     data-aos="fade-right">
+                    <h3>More Strong</h3>
+                    <p class="font-italic ">With an ever-growing global network of over 100,000 agent locations across
+                        90 countries, money can be received conveniently in any part of the world. We continue to
+                        partner with some of the most significant banks and financial institutions to further boost our
+                        reach around the world. Innovation is the key to convenience and we constantly innovate to
+                        provide new, better ways to send and receive money.</p>
+
+                </div>
+
+                <div class="col-md-5 pb-3 d-flex flex-column justify-content-center aos-init aos-animate"
+                     data-aos="flip-up">
+                    <img class="img-thumbnail " src="./../images/nec-money/strong.png" alt="More Strong">
+                </div>
+            </section>
+        </section>
+        <!--Real Value-->
+        <section class="container-fluid strong">
+
+            <section class="d-flex justify-content-center mission pt-4 row">
+                <div class="col-md-5 pb-3 d-flex flex-column justify-content-center aos-init aos-animate"
+                     data-aos="flip-up">
+                    <img class="img-thumbnail " src="./../images/nec-money/do-you-know-the-real-value-of-hard-work.jpg"
+                         alt="More Strong">
+                </div>
+
+                <div class="aos-init col-md-6 d-flex flex-column justify-content-center aos-animate"
+                     data-aos="fade-right">
+                    <h3>Real Value</h3>
+                    <p class="font-italic ">While sending money with NEC Money, the customer pays less transfer charges
+                        and gets the best exchange rates. This way, the sender spends less and the receiver gets
+                        more.</p>
+
+                </div>
+            </section>
+        </section>
+        <!--Innovation-->
+        <section class="container-fluid strong">
+
+            <section class="d-flex justify-content-center mission pt-4 row">
+                <div class="aos-init col-md-6 d-flex flex-column justify-content-center aos-animate"
+                     data-aos="fade-right">
+                    <h3>More Innovation</h3>
+                    <p class="font-italic ">Innovation has been key to our goal of making money transfers more
+                        convenient for people around the world. We have led the way into the new world of remittances by
+                        path breaking solutions. We launched Flash cash service, the world's first international mobile
+                        money transfer app from UK and worldwide. We are also coming up with an online money transfer
+                        platform that will redefine the way people send money.</p>
+
+                </div>
+                <div class="col-md-5 pb-3 d-flex flex-column justify-content-center aos-init aos-animate"
+                     data-aos="flip-up">
+                    <img class="img-thumbnail " src="./../images/nec-money/Innovation.jpg" alt="More Strong">
+                </div>
+            </section>
+        </section>
+        <!--More Convenience-->
+        <section class="container-fluid strong">
+
+            <section class="d-flex justify-content-center mission pt-4 row">
+                <div class="col-md-5 pb-3 d-flex flex-column justify-content-center aos-init aos-animate"
+                     data-aos="flip-up">
+                    <img class="img-thumbnail h-75" src="./../images/nec-money/convenience.jpg" alt="More Strong">
+                </div>
+                <div class="aos-init col-md-6 d-flex flex-column justify-content-center aos-animate"
+                     data-aos="fade-right">
+                    <h3>More Convenience</h3>
+                    <p class="font-italic ">With multiple options including cash transfer, bank account, mobile money &
+                        door delivery, your loved ones can choose the most convenient way to receive money.</p>
+
+                </div>
+
+            </section>
+        </section>
+        <!--Slider-->
+
+
+        <div id="slider">
+            <div class="slides">
+
+                <!-- First slide -->
+                <div class="slider">
+                    <div class="legend"></div>
+                    <div class="slider-content">
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-md-10">
+                                <h1 class="text-white">Process of safety & comfort</h1>
+                                <h5 class="font-italic text-white">We at NEC Money are committed to operate with
+                                    integrity, within the scope of the law and with security. Therefore, when you choose
+                                    our services to transfer money, irrespective of which country you are from or which
+                                    currency you are using, you can be assured that your money is safe and will reach
+                                    your family when they need it the most. Our infrastructure, global policies and
+                                    error-free protocols ensure that the interest of each of our stakeholders is
+                                    safeguarded – be it customers, agents, associates or even our own employees.</h5>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="images">
+                        <img class="img-fluid"
+                             src="https://wonderfulengineering.com/wp-content/uploads/2014/07/Landscape-wallpapers-3.jpg">
+                    </div>
+                </div>
+
+                <!-- Second slide -->
+                <div class="slider">
+
+                    <div class="legend"></div>
+                    <div class="slider-content">
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-md-10">
+                                <h1 class="text-white">A Strong Infrastructure</h1>
+                                <h5 class="font-italic text-white">We have a well structure, strong infrastructure. We
+                                    regularly update our systems and technology. Our staff is provided with consistent
+                                    training to ensure uniform adherence to worldwide standards. Additionally, the data
+                                    processing systems are secure and automated. The user activity audit trails and
+                                    transaction data files are also auto generated. Additionally, our financial
+                                    accounting statements and reports are integrated for reconciliation. We have also
+                                    employed the use of a comprehensive risk based AML monitoring solution provided by
+                                    World-Check, the leading global provider of structured risk intelligence
+                                    solutions.</h5>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="images">
+                        <div class="legend"></div>
+                        <img class="img-fluid w-100" src="./../images/nec-money/infrastructure.jpg">
+                    </div>
+                </div>
+                <!--Third Slide-->
+                <div class="slider">
+
+                    <div class="legend"></div>
+                    <div class="slider-content">
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-md-10">
+                                <h1 class="text-white">Global Policies</h1>
+                                <h5 class="font-italic text-white">We understand and respect that each country we
+                                    operate in has its own governing rules and regulations. Thus, our quality checks and
+                                    controls are aligned to global security standards. This also ensures that our
+                                    network remains error-free and secure. We are also proud of our robust AML
+                                    compliance features such as online scanning, country and product specific rules,
+                                    etc. ensuring all regulatory standards set by organizations like UAE Central Bank,
+                                    AUS-TRAC, FATF, OFAC, FERG, to name a few, are strictly followed.</h5>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="images">
+                        <div class="legend"></div>
+                        <img class="img-fluid h-100 w-100" src="./../images/nec-money/quality.jpg">
+                    </div>
+                </div>
+                <!--Fourth slide-->
+                <div class="slider">
+
+                    <div class="legend"></div>
+                    <div class="slider-content">
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-md-10">
+                                <h1 class="text-white">User Friendly Web Based System and Processes</h1>
+                                <h5 class="font-italic text-white">To ensure that no one other than the beneficiary can
+                                    claim the wired money, a unique 15-digit SPIN is generated for each transaction,
+                                    known only to you and the beneficiary. Additionally, every customer receives
+                                    automated SMS alerts regarding their transactions. Each transaction is automatically
+                                    processed in the backend and the status can be viewed via a simple web-based
+                                    enquiry.</h5>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="images">
+                        <div class="legend"></div>
+                        <img class="img-fluid"
+                             src="https://wonderfulengineering.com/wp-content/uploads/2014/07/Landscape-wallpapers-3.jpg">
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <section class="container">
+            <h3 class="section-title text-center p-5">Ownership</h3>
+            <div class="card-deck">
+                <div class="card card-md-3 mb-3">
+                    <!--Card image-->
+                    <div class="floatig-btn-container">
+                        <img src="http://www.necmoney.com/images/director/alamgir.jpg"
+                             class="card-img-top img-thumbnail" alt="sample">
+
+                    </div>
+                    <!--/.Card image-->
+
+                    <!--Card content-->
+                    <div class="card-body text-center">
+                        <!--Title-->
+                        <h5 class="card-title">Ikram Farazy</h5>
+                        <!--Text-->
+                        <p class="font-small grey-dark-text mb-0">Chairman and CEO</p>
+                    </div>
+                    <!--/.Card content-->
+
+                    <!-- Card footer -->
+                </div>
+                <div class="card card-md-3 mb-3">
+                    <!--Card image-->
+                    <div class="floatig-btn-container">
+                        <img src="http://www.necmoney.com/images/director/Mohammad%20Babul%20Miah.jpg"
+                             class="card-img-top img-thumbnail" alt="sample">
+
+                    </div>
+                    <!--/.Card image-->
+
+                    <!--Card content-->
+                    <div class="border card-body text-center">
+                        <!--Title-->
+                        <h5 class="card-title">Mohammad Babul Miah
+                        </h5>
+                        <!--Text-->
+                        <p class="font-small grey-dark-text mb-0">Founder Shareholder</p>
+                    </div>
+                    <!--/.Card content-->
+
+                    <!-- Card footer -->
+                </div>
+
+                <div class="card card-md-3 mb-3">
+                    <!--Card image-->
+                    <div class="floatig-btn-container">
+                        <img src="http://www.necmoney.com/images/director/DR%20ANOWER%20FARAZY.jpg"
+                             class="card-img-top img-thumbnail" alt="sample">
+
+                    </div>
+                    <!--/.Card image-->
+
+                    <!--Card content-->
+                    <div class="border card-body text-center">
+                        <!--Title-->
+                        <h5 class="card-title">Dr Anower Farazy</h5>
+                        <!--Text-->
+                        <p class="font-small grey-dark-text mb-0">Founder Shareholder</p>
+                    </div>
+                    <!--/.Card content-->
+
+                    <!-- Card footer -->
+                </div>
+                <div class="card card-md-3 mb-3">
+                    <!--Card image-->
+                    <div class="floatig-btn-container">
+                        <img src="http://www.necmoney.com/images/director/MONIR%20H%20FARAZY.jpg"
+                             class="card-img-top img-thumbnail" alt="sample">
+
+                    </div>
+                    <!--/.Card image-->
+
+                    <!--Card content-->
+                    <div class="border card-body text-center">
+                        <!--Title-->
+                        <h5 class="card-title">Monir H Farazy</h5>
+                        <!--Text-->
+                        <p class="font-small grey-dark-text mb-0">Founder Shareholder</p>
+                    </div>
+                    <!--/.Card content-->
+
+                    <!-- Card footer -->
+                </div>
+
+            </div>
+        </section>
     </section>
 
 
 </main>
 <footer class="footer">
-    <div class="container-fluid">
+    <div class="container">
         <div class="row">
             <div class="col-md-3 col-sm-6 col-xs-12">
                 <div class="list-group footer-menu-list">
@@ -239,39 +821,9 @@
 <script src="../js/jquery.min.js"></script>
 <script src="../js/waves.js"></script>
 <script src="../js/owl.carousel.js"></script>
+
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
-
-    (function ($) {
-
-        AOS.init({
-            duration: 1200,
-        })
-
-
-        $('.owl-carousel').owlCarousel({
-            loop: false,
-            //margin:10,
-            responsive: {
-                0: {
-                    items: 1
-                },
-                600: {
-                    items: 3
-                },
-                1000: {
-                    items: 5
-                }
-            },
-            //navigation: true, // Show next and prev buttons
-            slideSpeed: 300,
-            autoplay: true,
-            singleItem: true,
-            nav: false
-        })
-
-    })(jQuery);
-</script>
+<script src="../js/main.js"></script>
 
 </body>
 </html>
