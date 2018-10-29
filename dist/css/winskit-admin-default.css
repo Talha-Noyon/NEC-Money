@@ -2612,7 +2612,7 @@ button > i, span > i {
   list-style: none;
   padding: 20px 0 20px;
   position: relative; }
-  .timeline:before {
+  .timeline > .timeline-v-line {
     top: 0;
     bottom: 0;
     position: absolute;

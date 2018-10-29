@@ -1,10 +1,15 @@
 // stylelint-disable declaration-no-important
 
 // Width and height
-
+// left, right, top and bottom
 @each $prop, $abbrev in (width: w, height: h) {
   @each $size, $length in $sizes {
     .#{$abbrev}-#{$size} { #{$prop}: $length !important; }
+    .left-#{$size} { left: $length !important; }
+    .right-#{$size} { right: $length !important; }
+    .top-#{$size} { top: $length !important; }
+    .bottom-#{$size} { bottom: $length !important; }
+
   }
 }
 
