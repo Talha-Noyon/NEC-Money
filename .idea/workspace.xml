@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c31bafba-98b2-4d1f-bb1a-3bc6bcc1f6fc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/html/globalPartners.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/winskit-admin-default.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/winskit-admin-default.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/bootstrap/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/bootstrap/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bootstrap/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/bootstrap/scss/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bootstrap/scss/utilities/_sizing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/bootstrap/scss/utilities/_sizing.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/_timeline.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_timeline.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/chairmanMsg.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/chairmanMsg.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/services.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/_layout-style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_layout-style.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -85,47 +87,57 @@
     <session id="-827512790">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.20" value="2" />
           <entry key="project.open.time.23" value="2" />
+          <entry key="project.open.time.25" value="2" />
           <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.28" value="1" />
+          <entry key="project.open.time.37" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="11" />
+          <entry key="project.opened" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="8" />
-          <entry key="js" value="5" />
-          <entry key="scss" value="35" />
+          <entry key="css" value="2" />
+          <entry key="html" value="15" />
+          <entry key="js" value="6" />
+          <entry key="scss" value="37" />
+          <entry key="svg" value="1" />
+          <entry key="ttf" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="8" />
-          <entry key="JavaScript" value="5" />
-          <entry key="SCSS" value="35" />
+          <entry key="CSS" value="2" />
+          <entry key="HTML" value="15" />
+          <entry key="JavaScript" value="6" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="SCSS" value="37" />
+          <entry key="SVG" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="1129" />
-          <entry key="js" value="76" />
-          <entry key="scss" value="146" />
+          <entry key="css" value="21" />
+          <entry key="html" value="1605" />
+          <entry key="js" value="109" />
+          <entry key="scss" value="164" />
           <entry key="txt" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="1129" />
-          <entry key="JavaScript" value="76" />
+          <entry key="CSS" value="21" />
+          <entry key="HTML" value="1605" />
+          <entry key="JavaScript" value="109" />
           <entry key="PLAIN_TEXT" value="20" />
-          <entry key="SCSS" value="146" />
+          <entry key="SCSS" value="164" />
         </counts>
       </usages-collector>
     </session>
@@ -133,10 +145,41 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/html/services.html">
+        <entry file="file://$PROJECT_DIR$/src/html/globalPartners.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="184" column="38" lean-forward="true" selection-start-line="184" selection-start-column="38" selection-end-line="184" selection-end-column="38" />
+            <state relative-caret-position="390">
+              <caret line="159" column="105" selection-start-line="159" selection-start-column="105" selection-end-line="159" selection-end-column="105" />
+              <folding>
+                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///feema2/src/html/components/notifications.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1197">
+              <caret line="308" column="54" selection-start-line="308" selection-start-column="54" selection-end-line="308" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scss/_layout-style.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="900">
+              <caret line="60" column="14" selection-start-line="60" selection-start-column="14" selection-end-line="60" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -207,10 +250,8 @@
         <option value="$PROJECT_DIR$/src/scss/_shadow.scss" />
         <option value="$PROJECT_DIR$/src/html/NEC MONEY-about.html" />
         <option value="$PROJECT_DIR$/src/html/index.html" />
-        <option value="$PROJECT_DIR$/src/js/main.js" />
         <option value="$USER_HOME$/Downloads/Compressed/bootstrap testimonial slider-20181027T235940Z-001/bootstrap testimonial slider/testimonial.html" />
         <option value="$USER_HOME$/Downloads/Compressed/css3 slider/CSS3-Slider.html" />
-        <option value="$PROJECT_DIR$/src/html/about.html" />
         <option value="$PROJECT_DIR$/src/bootstrap/scss/_variables.scss" />
         <option value="/feema2/src/bootstrap/scss/_variables.scss" />
         <option value="$PROJECT_DIR$/src/bootstrap/scss/utilities/_sizing.scss" />
@@ -218,8 +259,13 @@
         <option value="/feema2/src/html/widgets.html" />
         <option value="/feema2/src/scss/_timeline.scss" />
         <option value="$PROJECT_DIR$/src/scss/_timeline.scss" />
-        <option value="$PROJECT_DIR$/src/scss/_layout-style.scss" />
         <option value="$PROJECT_DIR$/src/html/services.html" />
+        <option value="$PROJECT_DIR$/src/html/chairmanMsg.html" />
+        <option value="$PROJECT_DIR$/src/scss/_layout-style.scss" />
+        <option value="$PROJECT_DIR$/src/html/about.html" />
+        <option value="$PROJECT_DIR$/src/css/slick-theme.css" />
+        <option value="$PROJECT_DIR$/src/js/main.js" />
+        <option value="$PROJECT_DIR$/src/html/globalPartners.html" />
       </list>
     </option>
   </component>
@@ -245,23 +291,33 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="282" />
-    <option name="y" value="226" />
-    <option name="width" value="1221" />
-    <option name="height" value="597" />
+    <option name="x" value="155" />
+    <option name="y" value="120" />
+    <option name="width" value="1211" />
+    <option name="height" value="599" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="NEC-Money" type="b2602c69:ProjectViewProjectNode" />
               <item name="NEC-Money" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NEC-Money" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NEC-Money" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NEC-Money" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NEC-Money" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="NEC-Money" type="b2602c69:ProjectViewProjectNode" />
@@ -278,12 +334,25 @@
               <item name="NEC-Money" type="b2602c69:ProjectViewProjectNode" />
               <item name="NEC-Money" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="fonts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NEC-Money" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NEC-Money" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NEC-Money" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NEC-Money" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="scss" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -355,7 +424,10 @@
       <workItem from="1540696966466" duration="9695000" />
       <workItem from="1540722624679" duration="5219000" />
       <workItem from="1540742168801" duration="19954000" />
-      <workItem from="1540790220679" duration="4659000" />
+      <workItem from="1540790220679" duration="9856000" />
+      <workItem from="1540808927476" duration="6142000" />
+      <workItem from="1540827262005" duration="3524000" />
+      <workItem from="1540870478899" duration="1044000" />
     </task>
     <task id="LOCAL-00001" summary="about page updated">
       <created>1540759911676</created>
@@ -368,13 +440,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="191448000" />
+    <option name="totallyTimeSpent" value="207355000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="692" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4982079" visible="true" weight="0.31031868" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4982079" visible="true" weight="0.3262519" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Gulp" order="2" side_tool="true" />
       <window_info id="npm" order="3" sideWeight="0.50179213" side_tool="true" weight="0.28983307" />
@@ -409,40 +481,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="about page updated" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Downloads/Compressed/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="84" selection-start-line="5" selection-start-column="59" selection-end-line="5" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/Compressed/OwlCarousel2-2.3.4/dist/assets/owl.carousel.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2178">
-          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/owl.carousel.min.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/owl-slider.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="20" selection-start-line="20" selection-end-line="42" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/owl.carousel.min.js" />
-    <entry file="file://$PROJECT_DIR$/src/css/owl.theme.default.css" />
-    <entry file="file://$PROJECT_DIR$/src/html/feema-home.html" />
-    <entry file="file://$PROJECT_DIR$/src/scss/mixins/_shadow.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/_forms.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -487,13 +525,6 @@
     <entry file="file://$PROJECT_DIR$/src/js/materialize.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="102" column="19" selection-start-line="102" selection-start-column="19" selection-end-line="102" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/Compressed/bootstrap testimonial slider-20181027T235940Z-001/bootstrap testimonial slider/testimonial.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -505,20 +536,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="61" column="8" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -644,17 +661,88 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/_layout-style.scss">
+    <entry file="file://$PROJECT_DIR$/src/html/chairmanMsg.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="639">
-          <caret line="307" lean-forward="true" selection-start-line="307" selection-end-line="307" />
+        <state relative-caret-position="105">
+          <caret line="100" column="50" lean-forward="true" selection-start-line="100" selection-start-column="50" selection-end-line="100" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/html/services.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="184" column="38" lean-forward="true" selection-start-line="184" selection-start-column="38" selection-end-line="184" selection-end-column="38" />
+        <state relative-caret-position="450">
+          <caret line="129" column="18" lean-forward="true" selection-start-line="112" selection-start-column="8" selection-end-line="129" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1355">
+          <caret line="102" column="19" selection-start-line="102" selection-start-column="19" selection-end-line="102" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-91">
+          <caret line="375" column="44" selection-start-line="375" selection-start-column="44" selection-end-line="375" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Compressed/slick-1.8.1/slick/slick.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-855" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fonts/slick.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fonts/slick.ttf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/slick-theme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-405">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/slick.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="117" column="4" lean-forward="true" selection-start-line="117" selection-start-column="4" selection-end-line="117" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/_layout-style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="60" column="14" selection-start-line="60" selection-start-column="14" selection-end-line="60" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///feema2/src/html/components/notifications.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1197">
+          <caret line="308" column="54" selection-start-line="308" selection-start-column="54" selection-end-line="308" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/globalPartners.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="159" column="105" selection-start-line="159" selection-start-column="105" selection-end-line="159" selection-end-column="105" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
