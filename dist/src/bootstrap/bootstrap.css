@@ -5419,6 +5419,51 @@ button.bg-dark:focus {
   white-space: normal;
   clip-path: none; }
 
+.w-5 {
+  width: 5% !important; }
+
+.left-5 {
+  left: 5% !important; }
+
+.right-5 {
+  right: 5% !important; }
+
+.top-5 {
+  top: 5% !important; }
+
+.bottom-5 {
+  bottom: 5% !important; }
+
+.w-10 {
+  width: 10% !important; }
+
+.left-10 {
+  left: 10% !important; }
+
+.right-10 {
+  right: 10% !important; }
+
+.top-10 {
+  top: 10% !important; }
+
+.bottom-10 {
+  bottom: 10% !important; }
+
+.w-15 {
+  width: 15% !important; }
+
+.left-15 {
+  left: 15% !important; }
+
+.right-15 {
+  right: 15% !important; }
+
+.top-15 {
+  top: 15% !important; }
+
+.bottom-15 {
+  bottom: 15% !important; }
+
 .w-25 {
   width: 25% !important; }
 
@@ -5433,6 +5478,21 @@ button.bg-dark:focus {
 
 .bottom-25 {
   bottom: 25% !important; }
+
+.w-35 {
+  width: 35% !important; }
+
+.left-35 {
+  left: 35% !important; }
+
+.right-35 {
+  right: 35% !important; }
+
+.top-35 {
+  top: 35% !important; }
+
+.bottom-35 {
+  bottom: 35% !important; }
 
 .w-45 {
   width: 45% !important; }
@@ -5509,6 +5569,51 @@ button.bg-dark:focus {
 .bottom-100 {
   bottom: 100% !important; }
 
+.h-5 {
+  height: 5% !important; }
+
+.left-5 {
+  left: 5% !important; }
+
+.right-5 {
+  right: 5% !important; }
+
+.top-5 {
+  top: 5% !important; }
+
+.bottom-5 {
+  bottom: 5% !important; }
+
+.h-10 {
+  height: 10% !important; }
+
+.left-10 {
+  left: 10% !important; }
+
+.right-10 {
+  right: 10% !important; }
+
+.top-10 {
+  top: 10% !important; }
+
+.bottom-10 {
+  bottom: 10% !important; }
+
+.h-15 {
+  height: 15% !important; }
+
+.left-15 {
+  left: 15% !important; }
+
+.right-15 {
+  right: 15% !important; }
+
+.top-15 {
+  top: 15% !important; }
+
+.bottom-15 {
+  bottom: 15% !important; }
+
 .h-25 {
   height: 25% !important; }
 
@@ -5523,6 +5628,21 @@ button.bg-dark:focus {
 
 .bottom-25 {
   bottom: 25% !important; }
+
+.h-35 {
+  height: 35% !important; }
+
+.left-35 {
+  left: 35% !important; }
+
+.right-35 {
+  right: 35% !important; }
+
+.top-35 {
+  top: 35% !important; }
+
+.bottom-35 {
+  bottom: 35% !important; }
 
 .h-45 {
   height: 45% !important; }
