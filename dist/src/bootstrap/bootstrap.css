@@ -5479,6 +5479,21 @@ button.bg-dark:focus {
 .bottom-25 {
   bottom: 25% !important; }
 
+.w-23 {
+  width: 23% !important; }
+
+.left-23 {
+  left: 23% !important; }
+
+.right-23 {
+  right: 23% !important; }
+
+.top-23 {
+  top: 23% !important; }
+
+.bottom-23 {
+  bottom: 23% !important; }
+
 .w-35 {
   width: 35% !important; }
 
@@ -5628,6 +5643,21 @@ button.bg-dark:focus {
 
 .bottom-25 {
   bottom: 25% !important; }
+
+.h-23 {
+  height: 23% !important; }
+
+.left-23 {
+  left: 23% !important; }
+
+.right-23 {
+  right: 23% !important; }
+
+.top-23 {
+  top: 23% !important; }
+
+.bottom-23 {
+  bottom: 23% !important; }
 
 .h-35 {
   height: 35% !important; }

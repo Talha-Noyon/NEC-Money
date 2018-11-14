@@ -325,3 +325,18 @@
   -moz-transform: scale(1.04);
   transform: scale(1.04);
 }
+
+//spike terms page
+.spike-bottom {
+  position: absolute;
+  display: block;
+  border-color: transparent;
+  border-style: solid;
+  bottom: -14px;
+  left: 45px;
+  border-top-color: #e9ecef;
+  content: " ";
+  border-width: 7px;
+  box-sizing: border-box;
+  z-index: 2;
+}
